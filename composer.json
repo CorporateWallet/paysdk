@@ -1,5 +1,5 @@
 {
-	"name" : "Corporate/paysdk",
+	"name" : "corporate/paysdk",
 	"description" : "Corporate PAY SDK",
 	"type" : "library",
 	"version" : "1.0",
