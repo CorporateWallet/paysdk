@@ -1,0 +1,24 @@
+{
+	"name" : "Corporate/paysdk",
+	"description" : "Corporate PAY SDK",
+	"type" : "library",
+	"version" : "1.0",
+	"autoload" : {
+		"psr-4" : {
+			"Corporate\\PaySDK\\" : "src/"
+		}
+	},
+	"license" : "Apache-2.0",
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=7.0",
+		"ext-curl" : "*",
+		"ext-ctype" : "*",
+		"ext-dom" : "*",
+		"ext-fileinfo" : "*",
+		"ext-json" : "*",
+		"ext-mbstring" : "*",
+		"ext-openssl" : "*",
+		"guzzlehttp/guzzle" : ">=6.3"
+	}
+}
